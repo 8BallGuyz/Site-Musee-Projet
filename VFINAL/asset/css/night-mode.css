@@ -1,9 +1,7 @@
-/* Simple night mode styles */
 body {
     transition: 0.3s;
 }
 
-/* Night mode toggle */
 .night-mode {
     background: #1a1a1a;
     color: white;
