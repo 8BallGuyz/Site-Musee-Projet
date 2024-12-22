@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("/asset/font/Oswald-Regular.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/asset/font/Oswald-Medium.woff") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/asset/font/Oswald-Bold.woff") format("woff");
+    font-weight: 700;
+}
+
+
+
+body {
+    font-size: 32px;
+    font-family: Oswald;
+    line-height: 140%;
+}
+h2 {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 105%;
+}
+h1 {
+    font-size: max(24px 96px);
+    font-weight: 700;
+    line-height: 100%;
+}
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110%;
+}
+h4 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 115%;
+}
+
+h5 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+p{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+header a {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.carre a {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 105%;    
+}
+
+button{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Oswald;
+    line-height: 110%;
+}
+
+.pages li{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Oswald;
+    line-height: 110%;
+}
+
+
+

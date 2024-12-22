@@ -1,0 +1,54 @@
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer section{
+    display: flex;
+    margin: 0;
+    color: white;
+    flex-wrap: wrap;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer h5{
+    margin: 0;
+}
+
+footer div{
+    margin: 20px 45px; /* haut,bas / droite,gauche */
+}
+
+footer{
+    background-color: black;
+}
+
+footer hr{
+    margin: 4px;
+    max-width: 218px;
+}
+
+
+
+@media (max-width: 700px) { /* Pour les petits écrans */
+    footer section{
+        justify-content: space-between;
+        margin-left: 0px;
+    } 
+}
+
+@media (min-width: 700px) { /* Pour les écrans plus larges */
+    footer section {
+        justify-content: space-around;
+    }
+}
+
+

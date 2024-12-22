@@ -1,0 +1,164 @@
+.image1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.subtext {
+    margin-left: 0px;
+}
+
+.air_de_repos {
+    display: flex;
+    width: 100%;
+}
+
+.air_de_repos>div {
+    flex-basis: 50%;
+    padding: 30px;
+}
+
+.air_de_repos aside {
+    flex-grow: 0;
+    margin: 0;
+    flex-basis: 50%;
+}
+
+.air_de_repos h1 {
+    margin: 0;
+    line-height: 1em;
+}
+
+.air_de_repos img {
+    width: 100%;
+}
+
+.air_de_repos figure {
+    margin: 0;
+}
+
+
+.texte {
+    color: red;
+    position: relative;
+    top: 250px;
+    right: 315px;
+}
+
+
+.period__dates {
+    width: 100%;
+    font-family: Oswald;
+    margin: 10px 10;
+}
+
+.date-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+    gap: 0px;
+}
+
+.Tarif {
+    display: flex;
+    margin: 0px 0;
+    gap: 0px;
+}
+
+.date {
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.decorative-line {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 4px 0;
+}
+.hommePagePresentation{
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    margin-right: 0px;
+    margin-top: -40px;
+}
+
+.decorative-line1 {
+    margin-top : 22px;
+    border-top: 1px solid #000;
+}
+.decorative-line2 {
+    margin: 10px 0;
+    border-top: 1px solid #000;
+}
+.decorative-line3 {
+    margin: 10px 0px;
+    border-top: 1px solid #000;
+}
+
+.gros_texte {
+    width: 60%;
+    margin-right: 30px;
+}
+.grostextcontener{
+    display: flex;
+    justify-content: flex-end;
+}
+.Main {
+    padding: 5%;
+}
+.Header {
+    padding: 5px;
+}
+.Trait1{
+    width: 95%;
+    margin-left: 76px;
+}
+
+h1 span {
+    display : block;
+}
+
+@media (max-width: 700px) { 
+
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .subtext {
+        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .image1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .air_de_repos {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+    }
+
+    .gros_texte {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        flex-direction: row;
+        width: 100%;
+        padding: 15 15 15 0px;
+    }
+
+    .grostextcontener {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
